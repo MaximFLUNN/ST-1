@@ -23,7 +23,7 @@ TEST(TestCheckPrimeGroup, TestCheckPrimeNumbersLargeDenied) {
     EXPECT_FALSE(checkPrime(107443));
 }
 
-TEST(TestCheckPrimeGroup, TestCheckPrimeNumbersDenied) {
+TEST(TestCheckPrimeGroup, TestCheckPrimeNumbersFalse) {
     EXPECT_FALSE(checkPrime(0));
     EXPECT_FALSE(checkPrime(1));
 }
