@@ -60,7 +60,6 @@ TEST(TestCheckPrime, TestSumPrimeLarge) {
     EXPECT_EQ(sumPrime(1e4), 5736396);
 }
 
-
 TEST(TestCheckPrime, TestSumLowerThan2M) {
     EXPECT_EQ(sumPrime(2e6), 142913828922);
 }
